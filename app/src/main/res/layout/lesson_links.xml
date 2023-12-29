@@ -31,7 +31,7 @@
         android:padding="15sp"
         android:text="@string/lesson1"
         android:textColor="#616161"
-        android:onClick="onClickGoMain1"/>
+        />
 
     <Button
         android:id="@+id/lesson_btn2"
@@ -43,8 +43,8 @@
         android:backgroundTint="#E8E1A9"
         android:padding="15sp"
         android:text="@string/lesson2"
-        android:textColor="#616161"
-        android:onClick="onClickGoMain2"/>
+        android:textColor="#616161"/>
+<!--    android:onClick="onClickGoMain2"-->
 
     <Button
         android:id="@+id/lesson_btn3"
@@ -55,8 +55,8 @@
         android:backgroundTint="#E8E1A9"
         android:padding="15sp"
         android:text="@string/lesson3"
-        android:textColor="#616161"
-        android:onClick="onClickGoMain3"/>
+        android:textColor="#616161"/>
+<!--    android:onClick="onClickGoMain3"-->
 
     <Button
         android:id="@+id/lesson_btn4"
@@ -67,8 +67,8 @@
         android:backgroundTint="#E8E1A9"
         android:padding="15sp"
         android:text="@string/lesson4"
-        android:textColor="#616161"
-        android:onClick="onClickGoMain4"/>
+        android:textColor="#616161" />
+<!--    android:onClick="onClickGoMain4"-->
 
     <Button
         android:id="@+id/lesson_btn5"
@@ -79,8 +79,8 @@
         android:backgroundTint="#E8E1A9"
         android:padding="15sp"
         android:text="@string/lesson5"
-        android:textColor="#616161"
-        android:onClick="onClickGoMain5"/>
+        android:textColor="#616161" />
+<!--    android:onClick="onClickGoMain5"-->
 
     <Button
         android:id="@+id/next_button2"
@@ -88,8 +88,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#E8E1A9"
         android:text="@string/about_developer"
-        android:textColor="#616161"
-        android:onClick="onClickGoMain6"/>
+        android:textColor="#616161"/>
+<!--        android:onClick="onClickGoMain6"-->
+
 
 
 </LinearLayout>

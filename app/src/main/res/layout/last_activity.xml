@@ -45,7 +45,7 @@
         android:backgroundTint="#EFCD5E"
         android:text="@string/back_button"
         android:textColor="#616161"
-        android:textSize="20sp"
-        android:onClick="onClickGoMain7"/>
+        android:textSize="20sp" />
+<!--    android:onClick="onClickGoMain7"-->
 
 </LinearLayout>
