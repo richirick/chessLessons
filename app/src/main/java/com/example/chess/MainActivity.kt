@@ -3,6 +3,7 @@ package com.example.chess
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -11,15 +12,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-    }
-
-        fun onClickGoMain(view: View) {
+        val onClickGoMain : Button = findViewById(R.id.next_button1)
+        onClickGoMain.setOnClickListener{
             val intent = Intent(this, LessonLinks::class.java)
             startActivity(intent)
-//    fun onClickGoMain(view: View) {
-//     val imageButton = findViewById<View>(R.id.next_button1) as ImageButton
-
         }
+    }
+
+//        fun onClickGoMain(view: View) {
+//            val intent = Intent(this, LessonLinks::class.java)
+//            startActivity(intent)
+////    fun onClickGoMain(view: View) {
+////     val imageButton = findViewById<View>(R.id.next_button1) as ImageButton
+//
+//        }
 
 
 
